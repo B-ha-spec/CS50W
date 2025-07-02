@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        hr {
+            border: 0;
+            height: 2px;
+            background-color: orange;
+            width: 100%;
+        }
+
+        .name {
+            font-weight: bold;
+            text-align: center;
+            color: #000;
+        }
+
+        .details span {
+            font-weight: normal;
+        }
+
+        .details {
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .centered-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .phone-container,
+        .e-mail-container,
+        .website-container {
+            display: flex;
+            align-items: center;
+            color: #d81b60;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .phone-icon,
+        .mail-icon,
+        .web-icon {
+            margin-right: 8px;
+        }
+
+        .phone-icon img,
+        .mail-icon img,
+        .web-icon img {
+            width: 30px;
+            height: auto;
+        }
+
+        .phone-number,
+        .address,
+        .www {
+            font-weight: bold;
+        }
+
+        .phone-number span,
+        .address span,
+        .www span {
+            font-weight: normal;
+        }
+
+        button {
+            height: 45px;
+            margin: 5px 0;
+            background-color: skyblue;
+            border: none;
+            border-radius: 5px;
+            color: #333;
+            cursor: pointer;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button:hover {
+            background-color: #484848;
+            color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <div class="profile">
+        <div class="name">Bakhrombek Kadamov</div>
+        <hr>
+        <div class="details">
+            Date of birth: <span>25/09/2001</span> | Gender: <span>Male</span> | Nationality: <span>Uzbek</span>
+        </div>
+        <div class="phone-container">
+            <span class="phone-icon"><img src="free-icon-phone-call-5400769.png" alt="Phone"></span>
+            <span class="phone-number">Mobile: <span>(+48) 571417308</span></span>
+        </div>
+        <div class="e-mail-container">
+            <span class="mail-icon"><img src="free-icon-open-mail-4155633.png" alt="Mail"></span>
+            <span class="address">E-Mail Address: <span>bkadamov2509@gmail.com</span></span>
+        </div>
+        <div class="website-container">
+            <span class="web-icon"><img src="free-icon-computer-12636073.png" alt="WWW"></span>
+            <span class="www">Website: <span>https://www.linkedin.com/in/bakhrombek-kadamov-73952435a/</span></span>
+        </div>
+        <a href="https://t.me/KadamovB" target="_blank">
+            <button>Click for contact</button>
+        </a>
+    </div>
+</body>
+
+</html>
