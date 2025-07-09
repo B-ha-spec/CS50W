@@ -1,4 +1,4 @@
-houses = {"Harry": "Grif", "Bakhrombek": "Urgench"}
+houses = {"Harry": "Grif", "Bakhrombek": "Urgench"}  # :ignore
 
 houses["Hermione"] = "Grif"
 
