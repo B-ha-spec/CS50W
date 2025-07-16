@@ -12,4 +12,5 @@ def varvara(request):
     return HttpResponse("Привет, Варвара!")
 
 def greet(request, name):
-    return HttpResponse(f"Hello,{name.upper()}!")
+    return render(request, "hello/greet.html", {
+        "name": name.capitalize()})
